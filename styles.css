@@ -1,0 +1,32 @@
+section {
+  margin-bottom: 0.83em;
+}
+
+section div {
+  display: flex;
+}
+
+section label {
+  min-width: 8rem;
+}
+
+section select,
+section input {
+  min-width: 15rem;
+}
+
+section div {
+  margin: 5px;
+}
+
+input.error,
+select.error,
+textarea.error {
+  outline: solid red;
+}
+
+section p {
+  margin: 0;
+  padding-left: 15px;
+  color: red;
+}

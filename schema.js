@@ -20,7 +20,7 @@ export const schema = {
     .min(Joi.ref("eventStartDate"))
     .max(Joi.ref("eventEndDate")),
   sessionEndDateTime: Joi.date()
-    .min(Joi.ref("sessionStartDate"))
+    .min(Joi.ref("sessionStartDateTime"))
     .max(Joi.ref("eventEndDate")),
 
   customJson: Joi.object(),

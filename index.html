@@ -21,6 +21,7 @@
           <div>
             <label for="eventSeries">Series</label>
             <select name="eventSeries" id="eventSeriesSelect">
+              <option disabled selected>Please select...</option>
               <option value="fe">FE</option>
               <option value="xe">XE</option>
               <option value="other">Other</option>
@@ -30,6 +31,7 @@
           <div>
             <label for="eventType">Event Type</label>
             <select name="eventType" id="eventTypeSelect">
+              <option disabled selected>Please select...</option>
               <option value="Race">Race</option>
               <option value="Test">Test</option>
               <option value="Sim">Sim</option>
@@ -55,12 +57,12 @@
           </div>
           <div>
             <label for="eventStartDate">Start date</label>
-            <input type="date" name="eventStartDate" />
+            <input type="datetime-local" name="eventStartDate" />
             <p></p>
           </div>
           <div>
             <label for="eventEndDate">End date</label>
-            <input type="date" name="eventEndDate" />
+            <input type="datetime-local" name="eventEndDate" />
             <p></p>
           </div>
         </section>
